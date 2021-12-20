@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Montserrat:wght@300&family=Nunito+Sans&family=Poppins:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: 0;
+  background: rgb(233, 233, 233);
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+nav ul {
+  font-family: "DM Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  font-size: 1.2rem;
+  list-style: none;
+  justify-content: space-around;
+  background: rgb(233, 233, 233);
+}
+.search {
+  margin-right: 3rem;
+  overflow: 0;
+  padding: 18px;
+  background: rgb(233, 233, 233);
+}
+.search:hover {
+  background-color: rgb(255, 255, 255);
+}
+body{
+  opacity: 0.9;
+}
+.li li{
+  margin-right: 5px;
+}
+.li {
+  gap: 15px;
+  align-items: center;
+  opacity: 0.8;
+  display: flex;
+  padding: 15px;
+  align-items: center;
+  background: rgb(233, 233, 233);
+}
+.li one {
+  margin-right: 0 4rem;
+  background: rgb(233, 233, 233);
+}
+.li:hover {
+  background: grey;
+}
+.li one {
+  width: 6rem;
+}
+.section-1 {
+  background: url(../img/background-unsplash.jpg) no-repeat fixed;
+  background-size: cover;
+  max-width: 100%;
+  height: 30rem;
+  margin: auto;
+}
+.section-1__header {
+  font-family: "DM Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  max-width: 900px;
+  margin: auto;
+  top: 0;
+  z-index: 1;
+}
+.section-1__header h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  padding-top: 2rem;
+}
+.section-1__header h3 {
+  font-size: 13px;
+  margin-bottom: 4rem;
+}
+.section-1__header p {
+  font-size: 13px;
+  margin-top: 2rem;
+}
+.container__1 {
+  max-width: 900px;
+  margin: auto;
+
+}
+.container__1-header {
+  display: flex;
+  font-family: "DM Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4rem;
+}
+.container__1-title{
+  width: 40%;
+  margin-top: 3rem;
+}
+.mini-box {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  opacity: 0.8;
+  display: flex;
+  padding: 15px;
+  align-items: center;
+  font-size: 1.5rem;
+  font-family: "DM Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+.img-woman {
+  width: 20rem;
+  height: 30rem;
+  opacity: 0.7;
+}
+.img-woman:hover{
+  opacity: 1;
+}
+.container-2_images{
+  width: 32vh;
+  height: 19vh;
+}
+.container-2{
+  display: flex;
+  align-items: center;
+  max-width: 1140px;
+  margin: auto;
+}
+.container-2_header{
+  overflow: 0;
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 1.3rem;
+  font-family: "DM Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+  font-family: "Poppins", sans-serif;}
+
+  .container-3{
+    max-width: 300px;
+    margin: auto;
+  }
+  .container-3-header{
+    font-family: "DM Sans", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    font-family: "Nunito Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+  }
+.container-3 p{
+  margin-top: 1rem;
+  width: 5rem;
+  height: 2rem;
+  font-family: "DM Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+.container-3 input{
+  width: 15rem;
+  height: 4rem;
+}
+.number{
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
+.button-1{
+  background-color: grey;
+  padding: 4px;
+  color: white;
+  margin-top: 10px;
+  text-align: center;
+  transition: 0.3s;
+}
+.button-1:hover{
+  transition: 0.3s;
+  background: rgb(77, 77, 77);
+}
+.last-container{
+  color: white;
+  font-family: "DM Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  height: 5rem;
+  margin-top: 3rem;
+  align-items: center;
+  background-color: grey;
+  text-align: center;
+}
+.last-container p{
+  padding: 1.3rem;
+}
+.button-2{
+  color: white;
+  background-color: black;
+  padding: 1rem;
+}
